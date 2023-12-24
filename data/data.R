@@ -22,12 +22,12 @@ experience <- tribble(
         \\item Authored comprehensive documentation to ensure seamless adoption and easy troubleshooting.
         \\item Incorporated Mamba into the scientific workflow, reducing container build times by 300 percent.\\end{itemize}
   \\textbf{Cluster Configuration and Big Data Analytics} \\begin{itemize}
-        \\item Set up, configured and maintained both VM and Raspberry Pi bare-metal servers from scratch.
+        \\item Set up, configured and maintained both VM and Raspberry Pi bare-metal servers.
         \\item Created in-depth documentation for the cluster set-up and configuration. 
         \\item Implemented big data analytics tools (Hadoop, Spark) along with bioinformatics tools like Hail and Glow using Ansible scripts.\\end{itemize}
   \\textbf{Genomic data Analysis} \\begin{itemize}
         \\item Collaborated with the Alzheimer's Disease Sequence Project by annotating and scoring the biological effects of 362 million structural genetic variants associated with Alzheimer's Disease.
-        \\item Performed statistical analysis on the data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.\\end{itemize}",
+        \\item Performed statistical analysis on the Data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.\\end{itemize}",
   "Graduate Research Assistant",
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University",
   "JANUARY",2023,
@@ -40,8 +40,8 @@ experience <- tribble(
   "DECEMBER",2022,
   "Cleveland, Ohio",
   "\\textbf{Mapping human movement patterns after a natural disaster.} \\begin{itemize}
-        \\item Developed Python scripts automating GPS coordinate extraction from GPX files of geospatial video feeds in Democratic Republic of Congo the volcanic eruption of Mt Nyiragongo.
-        \\item Processed and transformed data into machine-readable format, enabling streamlined map generation.
+        \\item Developed Python scripts automating GPS coordinate extraction from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo post the volcanic eruption of Mt Nyiragongo.
+        \\item Processed and transformed data into a machine-readable format, enabling streamlined and automated map generation.
         \\item Applied automated scripts to parse video feeds into frames, implementing Machine Learning Algorithms for tent detection.
         \\item Created heat maps of tent distribution according to GPS coordinates, allowing for the mapping of the human movement pattern in the aftermath of the eruption. 
         \\item Wrote up the findings as a part of a manuscript for a peer-reviewed publication.\\end{itemize}",

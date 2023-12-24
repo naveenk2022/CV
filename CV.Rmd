@@ -9,7 +9,7 @@ email: "naveen.kannan12@gmail.com"
 github: naveenk2022
 linkedin: naveen-kannan-177120118
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist experienced with data analysis, visualization, building scientific pipelines and Data Engineering. I have a strong passion for learning, documentation and automation, and I compiled this CV with code. United States Permanent Resident."
+aboutme: "Data Scientist experienced with data analysis, visualization, building scientific pipelines and Data Engineering. I have a strong passion for learning, documentation and automation. United States Permanent Resident."
 headcolor: 414141
 output: vitae::awesomecv
 ---
@@ -37,7 +37,7 @@ tribble(
   detailed_entries(Institution, Year, Degree, Where,Detail)
 ```
 
-# Experience
+# Work Experience
 
 ```{r Research, results = "asis"}
 
