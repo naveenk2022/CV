@@ -97,3 +97,8 @@ leadership <- tribble(
         \\item Managed inventory for Steiner House, with a capacity of 21 students.
         \\item Responsible for ensuring a steady supply of consumables and non-consumables for the smooth functioning of the House.\\end{itemize}"
 )
+
+publications <- tribble(
+  ~full,
+  "Jayakrishnan Ajayakumar, Andrew J. Curtis , Felicien Maisha , Sandra Bempah, Afsar Ali , J. Glenn Morris Jr. , **Naveen Kannan** , and Grace Armstrong ,Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; ^c^Department of Geography, Kent State University, Kent, Ohio, USA; Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]"
+)
