@@ -31,7 +31,7 @@ source(file = here("data","data.r"))
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Detail,
-  "MS in Biomedical and Health Informatics", "JANUARY 2022 – AUGUST 2023", "Case Western Reserve University", "Cleveland, Ohio","GPA-3.9" ,
+  "MSc in Biomedical and Health Informatics", "JANUARY 2022 – AUGUST 2023", "Case Western Reserve University", "Cleveland, Ohio","GPA-3.9" ,
   "Bachelor of Medicine and Bachelor of Surgery", "SEPTEMBER 2016 - MARCH 2020", "Madras Medical College", "Chennai, India","GPA-4.0" 
 ) %>% 
   detailed_entries(Institution, Year, Degree, Where,Detail)

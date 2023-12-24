@@ -8,6 +8,18 @@ This CV has been created using the following:
 
 -	`LaTeX`
 
+The template used was [Awesome CV](https://github.com/posquit0/Awesome-CV), taken from [`vitae`](https://pkg.mitchelloharawild.com/vitae/) (`vitae::awesomecv`). 
+
+Other packages used include:
+
+- `here`
+
+- `tibble`
+
+- `readr`
+
+- `glue`
+
 # Citation
 
 O'Hara-Wild M, Hyndman R (2023). `vitae`: Curriculum Vitae for R Markdown. 
