@@ -61,3 +61,39 @@ experience <- tribble(
   "\\textbf{Rotated through the following departments:} Internal Medicine, General Surgery, Obstetrics and Gynecology, Community Medicine, Psychiatry, Emergency Trauma Ward, Labor Ward."
   
 )
+
+teaching <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Teaching Assistant", "A Data Driven Introduction to Genomics and Human Health ", "AUGUST", 2023, "DECEMBER", 2023, "Case Western Reserve University", 
+  "Held weekly office hours, developed and graded homework. ",
+)
+
+leadership <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Vice President", 
+  "Steiner House International Co-op", 
+  "MAY", 2022, 
+  "OCTOBER", 2022, 
+  "Cleveland, Ohio", 
+  "\\textbf{Community Leadership}  \\begin{itemize}
+        \\item Facilitated seamless integration of new residents, fostering community through monthly social events.
+        \\item Collaborated with the executive board to ensure effective communication and daily management of the house.
+        \\item Organized monthly events, contributing to a vibrant and inclusive living environment.\\end{itemize}",
+  "Admissions Manager",
+  "Steiner House International Co-op",
+  "MAY", 2022,
+  "SEPTEMBER", 2022,
+  "Cleveland, Ohio",
+  "\\textbf{Residential Admissions and Selections} \\begin{itemize}
+        \\item Screened and interviewed prospective residents, facilitating transparent communication of results within the house.
+        \\item Successfully admitted diverse graduate students globally, including those from India, Bangladesh, China, Vietnam, Thailand, Nigeria, Ireland, and Iran.
+        \\item Oversaw the seamless onboarding process for 8 graduate students, ensuring a smooth transition to life in the United States at Steiner House.\\end{itemize}",
+  "Ordering Manager",
+  "Steiner House International Co-op",
+  "MAY", 2022,
+  "SEPTEMBER", 2022,
+  "Cleveland, Ohio",
+  "\\textbf{Inventory Management} \\begin{itemize}
+        \\item Managed inventory for Steiner House, with a capacity of 21 students.
+        \\item Responsible for ensuring a steady supply of consumables and non-consumables for the smooth functioning of the House.\\end{itemize}"
+)
