@@ -11,6 +11,7 @@ skills <- tribble(
 
 )
 
+
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Research Associate", 
@@ -18,9 +19,9 @@ experience <- tribble(
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
   "\\textbf{Docker/Singularity Container Deployment and Documentation} \\begin{itemize}
-        \\item Developed Docker/Singularity containers for reproducible scientific pipelines, facilitating efficient workflows for colleagues.
-        \\item Authored comprehensive documentation to ensure seamless adoption and easy troubleshooting.
-        \\item Incorporated Mamba into the scientific workflow, reducing container build times by 300 percent.\\end{itemize}
+        \\item Developed efficient Docker/Singularity containers for reproducible scientific pipelines, facilitating efficient workflows for colleagues, reducing container build times by 300 percent.
+        \\item Authored comprehensive documentation for the built containers to ensure their seamless adoption, enabling colleagues to work with specialized scientific tools with no downtime.
+        \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors.\\end{itemize}
   \\textbf{Cluster Configuration and Big Data Analytics} \\begin{itemize}
         \\item Set up, configured and maintained both VM and Raspberry Pi bare-metal servers.
         \\item Created in-depth documentation for the cluster set-up and configuration. 
@@ -64,7 +65,7 @@ experience <- tribble(
 
 teaching <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Teaching Assistant", "A Data Driven Introduction to Genomics and Human Health ", "AUGUST", 2023, "DECEMBER", 2023, "Case Western Reserve University", 
+  "Teaching Assistant", "A Data Driven Introduction to Genomics and Human Health (PQHS 451) ", "AUGUST", 2023, "DECEMBER", 2023, "Case Western Reserve University", 
   "Held weekly office hours, developed and graded homework. ",
 )
 
@@ -97,6 +98,7 @@ leadership <- tribble(
         \\item Managed inventory for Steiner House, with a capacity of 21 students.
         \\item Responsible for ensuring a steady supply of consumables and non-consumables for the smooth functioning of the House.\\end{itemize}"
 )
+
 
 publications <- tribble(
   ~full,
