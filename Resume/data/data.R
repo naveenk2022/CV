@@ -11,33 +11,7 @@ skills <- tribble(
 
 )
 
-projects1 <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Interactive Geospatial Dashboard Creation", 
-  "Mapped the Impact of the Norfolk Southern Train Derailment in Ohio on Air and Water Quality Indices", 
-  2023, 
-  "Case Western Reserve University", 
-  "Coded scripts to scrape publicly available air and water quality data from USGS(United States Geological Survey) and AirNow AQI for counties within a 30-mile radius of the Norfolk Southern train derailment in February 2023. Implemented an interactive Shiny dashboard in R, offering users the ability to explore and analyze daily trends in Ohio, West Virginia, and Pennsylvania counties throughout January and February. The dashboard includes dynamic time series plots for comprehensive visualization of air and water quality metrics during the specified timeframe."
-)
 
-projects <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Interactive Geospatial Dashboard Creation", 
-  "Mapped the Impact of the Norfolk Southern Train Derailment in Ohio on Air and Water Quality Indices", 
-  2023, 
-  "Case Western Reserve University", 
-  "\\url{https://naveen-kannan.shinyapps.io/final_east_palestine_dashboard_2} \\begin{itemize}
-        \\item Coded scripts to scrape publicly available air and water quality data from USGS(United States Geological Survey) and AirNow AQI for counties within a 30-mile radius of the Norfolk Southern train derailment in February 2023.
-        \\item Implemented an interactive Shiny dashboard in R, offering users the ability to explore and analyze daily trends in Ohio, West Virginia, and Pennsylvania counties throughout January and February.
-        \\item The dashboard includes dynamic time series plots for comprehensive visualization of air and water quality metrics during the specified timeframe.\\end{itemize}",
-  "Data Science Blog",
-  "Tutorials on Data Engineering and Architecture",
-  2022,
-  "Cleveland, Ohio",
-  "\\url{https://naveenkannan.netlify.app/blog_main.html} \\begin{itemize}
-        \\item Authored tutorials on topics ranging from Docker/Singularity container creation to data engineering tutorials on setting up Spark and Hadoop.\\end{itemize}"
-)
- 
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Research Associate", 
