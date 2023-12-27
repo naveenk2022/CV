@@ -44,14 +44,13 @@ experience <- tribble(
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University", 
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
-  "\\textbf{Docker/Singularity Container Deployment and Documentation} \\begin{itemize}
+  "\\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
         \\item Developed efficient Docker/Singularity containers for reproducible scientific pipelines, facilitating efficient workflows for colleagues, reducing container build times by 300 percent.
-        \\item Authored comprehensive documentation for the built containers to ensure their seamless adoption, enabling colleagues to work with specialized scientific tools with no downtime.
+        \\item Enabled the use of tools such as RStudio and JupyterLab (with Bioinformatics tools installed on them) through Docker containers running servers with these tools enabled, circumventing the need to have to install these tools on the server directly.
         \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors.\\end{itemize}
   \\textbf{Cluster Configuration and Big Data Analytics} \\begin{itemize}
-        \\item Set up, configured and maintained both VM and Raspberry Pi bare-metal servers.
-        \\item Created in-depth documentation for the cluster set-up and configuration. 
-        \\item Implemented big data analytics tools (Hadoop, Spark) along with bioinformatics tools like Hail and Glow using Ansible scripts.\\end{itemize}
+        \\item Set up, configured and maintained both VM (4 node cluster) and Raspberry Pi (4 node cluster) bare-metal servers.
+        \\item Automated the installation and configuration of Big Data architecture such as Hadoop and Spark along with bioinformatics tools like Hail and Glow using Ansible scripts.\\end{itemize}
   \\textbf{Genomic data Analysis} \\begin{itemize}
         \\item Collaborated with the Alzheimer's Disease Sequence Project by annotating and scoring the biological effects of 362 million structural genetic variants associated with Alzheimer's Disease.
         \\item Performed statistical analysis on the Data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.\\end{itemize}",
@@ -66,7 +65,7 @@ experience <- tribble(
   "MAY",2022,
   "DECEMBER",2022,
   "Cleveland, Ohio",
-  "\\textbf{Mapping human movement patterns after a natural disaster.} \\begin{itemize}
+  "\\textbf{Mapping human movement patterns after a natural disaster in the Democratic Republic of Congo.} \\begin{itemize}
         \\item Developed Python scripts automating GPS coordinate extraction from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo post the volcanic eruption of Mt Nyiragongo.
         \\item Processed and transformed data into a machine-readable format, enabling streamlined and automated map generation.
         \\item Applied automated scripts to parse video feeds into frames, implementing Machine Learning Algorithms for tent detection.
@@ -114,7 +113,7 @@ leadership <- tribble(
   "\\textbf{Residential Admissions and Selections} \\begin{itemize}
         \\item Screened and interviewed prospective residents, facilitating transparent communication of results within the house.
         \\item Successfully admitted diverse graduate students globally, including those from India, Bangladesh, China, Vietnam, Thailand, Nigeria, Ireland, and Iran.
-        \\item Oversaw the seamless onboarding process for 8 graduate students, ensuring a smooth transition to life in the United States at Steiner House.\\end{itemize}",
+        \\item Oversaw the onboarding process for 8 graduate students, ensuring a smooth transition to life in the United States at Steiner House.\\end{itemize}",
   "Ordering Manager",
   "Steiner House International Co-op",
   "MAY", 2022,
