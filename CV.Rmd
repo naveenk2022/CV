@@ -140,8 +140,9 @@ projects %>%
 
 ```{r}
 ## For the following sections, note that:
-# - \bodyfont is a custom command that has been defined in the awesome-cv.cls file.
+# \bodyfont is a custom command that has been defined in the awesome-cv.cls file.
 # \newcommand*{\bodyfont}{\sourcesanspro} 
+# \bodyfontlight is similar
 # If you want to download fonts and use them, you'd need to use fontspec
 # For example, for the following if you used:
 # \begingroup
