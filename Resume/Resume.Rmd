@@ -24,7 +24,7 @@ library(here)
 library(tibble)
 library(readr)
 library(glue)
-source(file = here("data","data.r"))
+source(file = here("resume/data_r","data_r.r"))
 ```
 
 # Work Experience   
@@ -40,31 +40,9 @@ experience %>%
   )
 ```
 
-# Education
-
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Detail,
-  "MSc in Biomedical and Health Informatics", "JANUARY 2022 – AUGUST 2023", "Case Western Reserve University", "Cleveland, Ohio","GPA-3.9" ,
-  "Bachelor of Medicine and Bachelor of Surgery", "SEPTEMBER 2016 - MARCH 2020", "Madras Medical College", "Chennai, India","GPA-4.0" 
-) %>% 
-  detailed_entries(Institution, Year, Degree, Where,Detail)
-```
-
 # Skills 
 
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    with = area,
-    what = skills
-  )
-
-```
-
-```{r skills, eval=FALSE, include=FALSE, results='markup'}
+```{r}
 tribble(
    ~`Operating Systems`, 
    ~`Programming Languages`,
@@ -76,7 +54,7 @@ tribble(
    ~`Bioinformatics Tools`,
   "Unix, Kubuntu Debian Linux, Fedora Red Hat Linux, Raspbian Debian Linux, Windows 11",
   "Python, R, Bash, SQL",
-  "Hadoop/Spark/Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
+  "Hadoop/Spark, Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
   "Geopandas, sf(R), QGIS, ArcGIS",
   "LaTeX, Markdown, RMarkdown",
   "Git, GitHub, gh client",
@@ -90,22 +68,20 @@ tribble(
                 position = "center") %>% 
   row_spec(0, bold = T, color = "#414141") %>% 
   row_spec(1, bold = F, color = "#7f7f7f") %>% 
-  column_spec(column = 1:8, width = '2.00cm')
+  column_spec(column = 1:8, width = '1.75cm')
 ```
 
-# Teaching Experience
 
-```{r Teaching, results = "asis"}
+# Education
 
-teaching %>%
-  detailed_entries(
-    with = title,
-    what = unit,
-    why = detail,
-    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
-    where = where, .protect = F
-  )
-
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Detail,
+  "MSc in Biomedical and Health Informatics", "JANUARY 2022 – AUGUST 2023", "Case Western Reserve University", "Cleveland, Ohio","GPA-3.9" ,
+  "Bachelor of Medicine and Bachelor of Surgery", "SEPTEMBER 2016 - MARCH 2020", "Madras Medical College", "Chennai, India","GPA-4.0" 
+) %>% 
+  detailed_entries(Institution, Year, Degree, Where,Detail)
 ```
 
 # Leadership
@@ -123,24 +99,39 @@ leadership %>%
 
 ```
 
+# Projects
+
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where, .protect = F
+  )
+
+```
+
 # Publications
 
--   \footnotesize Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
+-   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
 
--   \footnotesize \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
+-   \small \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
 Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western
 Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr.,
 Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
 
--   \footnotesize Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
+-   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
 
--   \footnotesize Segamalai, D., Abdul Jameel, A. R., **Kannan, N**., Anbalagan, A., Duraisamy, B., Raju, P., & Devy Gounder, K. (2017). [Mediastinal pseudocyst: varied presentations and management---experience from a tertiary referral care centre in India.](https://downloads.hindawi.com/archive/2017/5247626.pdf) *HPB Surgery*, *2017*.
+-   \small Segamalai, D., Abdul Jameel, A. R., **Kannan, N**., Anbalagan, A., Duraisamy, B., Raju, P., & Devy Gounder, K. (2017). [Mediastinal pseudocyst: varied presentations and management---experience from a tertiary referral care centre in India.](https://downloads.hindawi.com/archive/2017/5247626.pdf) *HPB Surgery*, *2017*.
 
--   \footnotesize Vellaisamy, R., **Kannan, N**., Anbalagan, A., Raju, P., Duraisamy, B., Murugesan, C. S., & Gounder, K. D. (2016). [Endoscopic access to hepatic duct through duodenum during follow up--after primary surgery for hepatolithiasis](https://hpbonline.org/article/S1365-182X(16)31428-9/fulltext). *HPB*, *18*, e530.
+-   \small Vellaisamy, R., **Kannan, N**., Anbalagan, A., Raju, P., Duraisamy, B., Murugesan, C. S., & Gounder, K. D. (2016). [Endoscopic access to hepatic duct through duodenum during follow up--after primary surgery for hepatolithiasis](https://hpbonline.org/article/S1365-182X(16)31428-9/fulltext). *HPB*, *18*, e530.
 
--   \footnotesize Ramasamy, V., Vellaisamy, R., **Kannan, N**., & Gounder, K. D. (2016). [Refined technique of access loop in hepatobiliary surgery.](https://hpbonline.org/article/S1365-182X(16)31598-2/abstract) *HPB*, *18*, e593-e594.
+-   \small Ramasamy, V., Vellaisamy, R., **Kannan, N**., & Gounder, K. D. (2016). [Refined technique of access loop in hepatobiliary surgery.](https://hpbonline.org/article/S1365-182X(16)31598-2/abstract) *HPB*, *18*, e593-e594.
 
--   \footnotesize \textbf{Kannan, N.}, Vellaisamy, R., Govindarajan, M., & Gounder, K. D. (2016). [Pellagra following pancreaticoduodenectomy for malignant pancreatic carcinoid with pluripotent hormonal potential](https://www.hpbonline.org/article/S1365-182X(16)31013-9/fulltext). *HPB*, *18*, e381-e382.
+-   \small \textbf{Kannan, N.}, Vellaisamy, R., Govindarajan, M., & Gounder, K. D. (2016). [Pellagra following pancreaticoduodenectomy for malignant pancreatic carcinoid with pluripotent hormonal potential](https://www.hpbonline.org/article/S1365-182X(16)31013-9/fulltext). *HPB*, *18*, e381-e382.
 
 
    
