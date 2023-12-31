@@ -15,7 +15,7 @@ skills <- tribble(
 projects <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
   "Interactive Geospatial Dashboard Creation", 
-  "Mapping the Impact of the Norfolk Southern Train Derailment in Ohio on Air and Water Quality Indices", 
+  "Mapping the Environmental Impact of the Norfolk Southern Train Derailment in Ohio.", 
   2023, 
   "Case Western Reserve University", 
   "\\url{https://naveen-kannan.shinyapps.io/final_east_palestine_dashboard_2} \\begin{itemize}
