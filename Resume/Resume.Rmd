@@ -52,7 +52,7 @@ tribble(
    ~`Version Control`,
    ~`Python-based skills`,
    ~`Bioinformatics Tools`,
-  "Unix, Kubuntu Debian Linux, Fedora Red Hat Linux, Raspbian Debian Linux, Windows 11",
+  "Unix, Debian Linux, Fedora Red Hat Linux, Windows 11",
   "Python, R, Bash, SQL",
   "Hadoop/Spark, Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
   "Geopandas, sf(R), QGIS, ArcGIS",
@@ -132,7 +132,3 @@ Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and 
 -   \small Ramasamy, V., Vellaisamy, R., **Kannan, N**., & Gounder, K. D. (2016). [Refined technique of access loop in hepatobiliary surgery.](https://hpbonline.org/article/S1365-182X(16)31598-2/abstract) *HPB*, *18*, e593-e594.
 
 -   \small \textbf{Kannan, N.}, Vellaisamy, R., Govindarajan, M., & Gounder, K. D. (2016). [Pellagra following pancreaticoduodenectomy for malignant pancreatic carcinoid with pluripotent hormonal potential](https://www.hpbonline.org/article/S1365-182X(16)31013-9/fulltext). *HPB*, *18*, e381-e382.
-
-
-   
-
