@@ -25,3 +25,7 @@ Other packages used include:
 O'Hara-Wild M, Hyndman R (2023). `vitae`: Curriculum Vitae for R Markdown. 
 R package version 0.5.4, https://github.com/mitchelloharawild/vitae, 
 https://pkg.mitchelloharawild.com/vitae/.
+
+# Disclaimer
+
+I do not recommend working with LaTeX, especially using `tinytex` and R. It is very finicky and difficult to work with.
