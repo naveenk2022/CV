@@ -24,11 +24,19 @@ projects <- tribble(
         \\item The dashboard includes dynamic time series plots for comprehensive visualization of air and water quality metrics during the specified timeframe.\\end{itemize}",
   "Data Science Blog",
   "Tutorials on Data Engineering and Architecture",
-  2022,
+  2023,
   "Cleveland, Ohio",
   "\\url{https://naveenkannan.netlify.app/blog_main.html} \\begin{itemize}
-        \\item Authored tutorials on topics ranging from Docker/Singularity container creation to data engineering tutorials on setting up Spark and Hadoop.\\end{itemize}"
-)
+        \\item Authored tutorials on topics ranging from Docker/Singularity container creation to data engineering tutorials on setting up Spark and Hadoop.\\end{itemize}",
+  "Data Analytics and Visualization",
+  "Analyzis and visualization of Public Health Datasets.",
+  2022,
+  "Cleveland, Ohio",
+  "\\url{https://naveenkannan.netlify.app/portfolio.html} \\begin{itemize}
+        \\item Performed statistical analysis of large public health datasets, including the Population Assessment of Tobacco and Health (PATH) Study, and the NHANES (National Health and Nutrition Examination Survey).
+        \\item Visualized the distributions of variables and outcomes. 
+        \\item Interpreted and presented the findings in a scientific manner, alongside data visualization to further enhance the impact of the findings.\\end{itemize}"
+  )
  
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
