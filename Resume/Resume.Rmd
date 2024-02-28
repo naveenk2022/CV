@@ -9,7 +9,7 @@ email: "naveen.kannan12@gmail.com"
 github: naveenk2022
 linkedin: naveen-kannan-177120118
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist experienced with automating and building scientific workflows, data analysis, visualization and Data Engineering. I have a strong passion for innovation and problem solving. I enjoy learning new skills and blogging about them on my website."
+aboutme: "Data Scientist and Bioinformatician with 2+ years of research experience applying advanced data analytics and machine learning to human genomic data. Background in praticing clinical medicine with domain expertise in microbiology and pathology. Experienced in automated deployment of scientific workflows with cutting edge machine learning tools, data analytics tools, and bioninformatics tools, with a strong passion for enabling easy access to Big Data tools and containers."
 headcolor: 414141
 output: 
   vitae::awesomecv
@@ -50,7 +50,7 @@ tribble(
    ~`Geospatial Analytics`,
    ~`Markup Languages`,
    ~`Version Control`,
-   ~`Python-based skills`,
+   ~`Machine Learning`,
    ~`Bioinformatics Tools`,
   "Unix, Debian Linux, Fedora Red Hat Linux, Windows 11",
   "Python, R, Bash, SQL",
@@ -59,7 +59,7 @@ tribble(
   "LaTeX, Markdown, RMarkdown",
   "Git, GitHub, gh client",
   "PySpark, Tensorflow, Pytorch, pandas, scikit-learn, numpy, scipy",
-  "samtools, BCFtools, HTSlib, Tabix"
+  "samtools, BCFtools, HTSlib, Tabix, Hail, Glow"
 ) %>%
   kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
   kable_styling(full_width = F, 
@@ -99,7 +99,7 @@ leadership %>%
 
 ```
 
-# Projects
+# Personal Projects
 
 ```{r PROJECTS}
 
@@ -116,14 +116,14 @@ projects %>%
 
 # Publications
 
--   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
+-   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e}, \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. \textbf{[Manuscript under review]}
 
 -   \small \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
 Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western
 Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr.,
 Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
 
--   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
+-   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. \textbf{[Manuscript under review]}
 
 -   \small Segamalai, D., Abdul Jameel, A. R., **Kannan, N**., Anbalagan, A., Duraisamy, B., Raju, P., & Devy Gounder, K. (2017). [Mediastinal pseudocyst: varied presentations and management---experience from a tertiary referral care centre in India.](https://downloads.hindawi.com/archive/2017/5247626.pdf) *HPB Surgery*, *2017*.
 

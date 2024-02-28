@@ -18,9 +18,11 @@ experience <- tribble(
   "Population Health and Quantitative Health Sciences, Case Western Reserve University", 
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
-  c("Engineered Mamba-driven Docker/Singularity containers, \\textbf{reducing build times by 3x}, transferred Docker storage cache to a physical hard drive, eliminating future storage errors, and created Dockerized servers with Data Science/ Bioinformatics tools installed.",
-   "Established, configured, and maintained VM and Raspberry Pi bare-metal servers, documenting the set-up, and automated the deployment of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark} on them along with \\textbf{bioinformatics (Hail, Glow) tools} using Ansible scripts.",
-   "Collaborated with the Alzheimer's Disease Sequencing Project, annotating and scoring \\textbf{362 million structural genetic variants linked to Alzheimer's Disease}, followed by statistical analysis and presentation of findings at the ASHG (American Society of Human Genetics) Conference in Washington DC (November 2023)."),
+  c("Configured automated deployment of \\textbf{Postgres database server} using \\textbf{Ansible} - established multiple databases and schemas, populated data, managed users and privileges, and implemented security controls.",
+    "Developed \\textbf{generative adversarial network (GAN)} to simulate realistic human genomic data - trained model on 1000 Genomes enabling simulation of artificial haplotypes passing quality checks for LD, HWE, and more for pending journal publication.",
+    "Engineered Mamba-driven \\textbf{Docker/Singularity} containers, \\textbf{reducing build times by 3x}, transferred Docker storage cache to a physical hard drive, eliminating future storage errors, and created Dockerized servers with Data Science/ Bioinformatics tools.",
+   "Established, configured, and maintained VM and Raspberry Pi bare-metal servers, documenting the set-up, and automated the deployment of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark} on them along with \\textbf{bioinformatics (Hail, Glow) tools} using \\textbf{Ansible}.",
+   "As part of the Alzheimer's Disease Sequencing Project, annotated and scored \\textbf{362 million structural genetic variants linked to Alzheimer's Disease}, followed by \\textbf{statistical analysis and presentation of findings} at the ASHG (American Society of Human Genetics) Conference in Washington DC (November 2023)."),
   "Graduate Research Assistant",
   "Population Health and Quantitative Health Sciences, Case Western Reserve University",
   "JANUARY",2023,
@@ -32,14 +34,13 @@ experience <- tribble(
   "MAY",2022,
   "DECEMBER",2022,
   "Cleveland, Ohio",
-  c("Automated GPS coordinate extraction from \\textbf{geospatial video feeds} of refugee camps in the Democratic Republic of Congo post Mt Nyiragongo's eruption using Python scripts.",
-    "Processed data, \\textbf{implemented ML algorithms for tent detection} along with GPS coordinates, and \\textbf{generated heat maps} to map refugee migration patterns, contributing to a peer-reviewed publication manuscript."),
+  c("Automated extraction of tent GPS coordinates from DRC refugee camp video feeds post Mt. Nyiragongo's eruption using \\textbf{Python} and \\textbf{Pytorch} to implement ML for tent detection and heat map generation of migration patterns for peer-reviewed publication."),
   "Junior Resident Doctor",
   "Department of Psychiatry, Saveetha Medical College",
   "JULY", 2020,
   "SEPTEMBER", 2020,
   "Chennai, India",
-  c("Evaluated and diagnosed psychiatric illnesses in stressful environments, and met the assigned goal of management of five patients per day."),
+  c("Evaluated and diagnosed psychiatric illnesses, and met the assigned goal of management of five patients per day."),
   "Junior Resident Doctor",
   "Madras Medical College",
   "MARCH", 2019,
@@ -62,9 +63,8 @@ leadership <- tribble(
   "MAY", 2022, 
   "OCTOBER", 2022, 
   "Cleveland, Ohio",
-  c("Spearheaded integration initiatives for new residents, fostering community through monthly social events, collaborating with the executive board to ensure effective daily house management and organizing inclusive monthly events.",
-    "Screened and interviewed prospective residents, communicated results transparently, admitted diverse global graduate students, and facilitated seamless onboarding for 8 students at Steiner House.",
-    "Managed inventory for Steiner House (capacity: 21 students), ensuring a continuous supply of consumables and non-consumables for smooth operations.")
+  c("Spearheaded integration initiatives for new residents, fostering community through monthly social events, while screening and interviewing prospective residents.",
+    "Managed inventory for Steiner House, ensuring a continuous supply of consumables and non-consumables.")
 )
 
 projects <- tribble(
@@ -73,11 +73,11 @@ projects <- tribble(
   "\\url{https://naveen-kannan.shinyapps.io/final_east_palestine_dashboard_2}", 
   2023, 
   "Case Western Reserve University", 
-  "Developed scripts to scrape air and water quality data from USGS and AirNow AQI for counties within a 30-mile radius of a train derailment, creating an interactive Shiny dashboard in R for users to explore and analyze daily trends in Ohio, West Virginia, and Pennsylvania during January and February 2023.",
+  "Developed scripts to scrape air and water quality data from USGS and AirNow AQI for counties within a 30-mile radius of a train derailment, creating an interactive Shiny dashboard in R for users to analyze and visualize temporal and spatial trends in water and air quality across affected counties in Ohio, West Virginia and Pennsylvania.",
   "Data Science Blog",
   "\\url{https://naveenkannan.netlify.app/blog_main.html}",
   2022,
   "Cleveland, Ohio",
-  "Authored tutorials on topics ranging from Docker/Singularity container creation to data engineering tutorials on setting up Spark and Hadoop."
+  "Created beginner-friendly tutorials on Docker containerization, Spark/Hadoop big data engineering, GPU programming, and MLOps. Content geared towards demystifying complex data science concepts for students and early career professionals."
 )
 
