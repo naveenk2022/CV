@@ -45,6 +45,8 @@ experience <- tribble(
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
   "\\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
+        \\item Configured automated deployment of Postgres database server using Ansible and established multiple databases and schemas, populated data, managed users and privileges, and implemented security controls.
+        \\item Developed Generative Adversarial Network (GAN) to simulate realistic human genomic data - trained model on 1000 Genomes enabling simulation of artificial haplotypes passing quality checks for LD, HWE, and more for pending journal publication.
         \\item Developed Mamba-based Docker/Singularity containers for reproducible scientific pipelines, facilitating efficient workflows for colleagues, reducing container build times by 300 percent.
         \\item Enabled the use of tools such as RStudio and JupyterLab (with Bioinformatics tools installed on them) through Docker containers running servers with these tools enabled, circumventing the need to have to install these tools on the server directly.
         \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors.\\end{itemize}
