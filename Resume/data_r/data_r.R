@@ -19,7 +19,7 @@ experience <- tribble(
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
   c("Configured automated deployment of \\textbf{Postgres database server} using \\textbf{Ansible} - established multiple databases and schemas, populated data, managed users and privileges, and implemented security controls.",
-    "Developed \\textbf{generative adversarial network (GAN)} to simulate realistic human genomic data - trained model on 1000 Genomes enabling simulation of artificial haplotypes passing quality checks for LD, HWE, and more for pending journal publication.",
+    "Developed \\textbf{generative adversarial network (GAN)} to simulate realistic human genomic data - trained model on 1000 Genomes data, and simulated a chunk of artificial genotypes which passed quality checks for LD, HWE, and more, pending journal publication.",
     "Engineered Mamba-driven \\textbf{Docker/Singularity} containers, \\textbf{reducing build times by 3x}, transferred Docker storage cache to a physical hard drive, eliminating future storage errors, and created Dockerized servers with Data Science/ Bioinformatics tools.",
    "Established, configured, and maintained VM and Raspberry Pi bare-metal servers, documenting the set-up, and automated the deployment of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark} on them along with \\textbf{bioinformatics (Hail, Glow) tools} using \\textbf{Ansible}.",
    "As part of the Alzheimer's Disease Sequencing Project, annotated and scored \\textbf{362 million structural genetic variants linked to Alzheimer's Disease}, followed by \\textbf{statistical analysis and presentation of findings} at the ASHG (American Society of Human Genetics) Conference in Washington DC (November 2023)."),

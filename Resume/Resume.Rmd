@@ -9,7 +9,7 @@ email: "naveen.kannan12@gmail.com"
 github: naveenk2022
 linkedin: naveen-kannan-177120118
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist and Bioinformatician with 2+ years of research experience applying advanced data analytics and machine learning to human genomic data. Background in praticing clinical medicine with domain expertise in microbiology and pathology. Experienced in automated deployment of scientific workflows with cutting edge machine learning tools, data analytics tools, and bioninformatics tools, with a strong passion for enabling easy access to Big Data tools and containers."
+aboutme: "Data Scientist and Bioinformatician with 2+ years of research experience applying advanced data analytics and machine learning to human genomic data. Experienced in automated deployment of scientific workflows with cutting edge machine learning, data analytics, and bioninformatics tools, with a strong passion for enabling easy access to Big Data tools and containers."
 headcolor: 414141
 output: 
   vitae::awesomecv

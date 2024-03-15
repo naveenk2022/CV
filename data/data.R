@@ -44,18 +44,23 @@ experience <- tribble(
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University", 
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
-  "\\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
-        \\item Configured automated deployment of Postgres database server using Ansible and established multiple databases and schemas, populated data, managed users and privileges, and implemented security controls.
-        \\item Developed Generative Adversarial Network (GAN) to simulate realistic human genomic data - trained model on 1000 Genomes enabling simulation of artificial haplotypes passing quality checks for LD, HWE, and more for pending journal publication.
-        \\item Developed Mamba-based Docker/Singularity containers for reproducible scientific pipelines, facilitating efficient workflows for colleagues, reducing container build times by 300 percent.
-        \\item Enabled the use of tools such as RStudio and JupyterLab (with Bioinformatics tools installed on them) through Docker containers running servers with these tools enabled, circumventing the need to have to install these tools on the server directly.
-        \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors.\\end{itemize}
-  \\textbf{Cluster Configuration and Big Data Analytics} \\begin{itemize}
-        \\item Set up, configured and maintained both VM (4 node cluster) and Raspberry Pi (4 node cluster) bare-metal servers.
-        \\item Automated the deployment and configuration of HDFS, YARN, Hadoop and Spark/PySpark on the servers along with Bioinformatics (Hail, Glow) tools using Ansible scripts.\\end{itemize}
+  "\\textbf{Postgres Database Administration} \\begin{itemize}
+        \\item Configured and deployed a \\textbf{PostgreSQL server} instance on Linux system with multiple CPU cores.
+        \\item Created and managed 3 databases, handling \\textbf{schema design} and data modeling.
+        \\item Utilized \\textbf{Spark's InferSchema tool} and automated loading of genomic flatfiles into tables within different databases. 
+        \\item Managed lab user roles, privileges, and access controls for secure database operations.
+        \\item Implemented firewall rules and network security measures for database connections. \\end{itemize}
+  \\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
+        \\item Developed \\textbf{Mamba-based Docker/Singularity containers} for reproducible scientific pipelines, facilitating efficient workflows for colleagues, reducing container build times by \\textbf{300 percent}.
+        \\item Deployed \\textbf{RStudio and JupyterLab servers} (with pre-installed Bioinformatics tools) through Docker containers, circumventing the need to install these tools on the server directly.
+        \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors while freeing up root filesystem overhead.\\end{itemize}
+  \\textbf{Automated Cluster Configuration and HDFS Deployment} \\begin{itemize}
+        \\item Utilizing Ansible scripts, automated the deployment,configuration and initiation of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark with a JupyterLab kernel} across a 4 node computing cluster.
+        \\item Automated the deployment and configuration of \\textbf{Bioinformatics (Hail, Glow)} tools on these clusters, interfacing with Spark and JupyterLab, using Ansible scripts.\\end{itemize}
   \\textbf{Genomic data Analysis} \\begin{itemize}
-        \\item Collaborated with the Alzheimer's Disease Sequencing Project by annotating and scoring the biological effects of 362 million structural genetic variants associated with Alzheimer's Disease in the R4 release of the ADSP.
-        \\item Performed statistical analysis on the Data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.\\end{itemize}",
+        \\item Collaborated with the \\textbf{Alzheimer's Disease Sequencing Project} by annotating and scoring the biological effects of 362 million structural genetic variants associated with Alzheimer's Disease in the R4 release of the ADSP.
+        \\item Performed statistical analysis on the Data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.
+        \\item Developed \\textbf{generative adversarial network (GAN)} via an automated pipeline to simulate a chunk of realistic human genomic data by training the model on 1000 Genomes data, while incorporating automated quality checks for LD, HWE, and more, as part of a pending journal publication.\\end{itemize}",
   "Graduate Research Assistant",
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University",
   "JANUARY",2023,
