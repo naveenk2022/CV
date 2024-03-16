@@ -16,7 +16,7 @@ skills <- tribble(
 projects <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
   "Interactive Geospatial Dashboard Creation", 
-  "Mapping the Environmental Impact of the Norfolk Southern Train Derailment in Ohio.", 
+  "Mapping the Environmental Impact of the Norfolk Southern Train Derailment in Ohio", 
   2023, 
   "Case Western Reserve University", 
   "\\url{https://naveen-kannan.shinyapps.io/final_east_palestine_dashboard_2} \\begin{itemize}
@@ -30,7 +30,7 @@ projects <- tribble(
   "\\url{https://naveenkannan.netlify.app/blog_main.html} \\begin{itemize}
         \\item Authored tutorials on topics ranging from Docker/Singularity container creation to data engineering tutorials on setting up Spark and Hadoop.\\end{itemize}",
   "Data Analytics and Visualization",
-  "Analyzis and visualization of Public Health Datasets.",
+  "Analysis and visualization of Public Health Datasets",
   2022,
   "Cleveland, Ohio",
   "\\url{https://naveenkannan.netlify.app/portfolio.html} \\begin{itemize}
@@ -74,7 +74,7 @@ experience <- tribble(
   "DECEMBER",2022,
   "Cleveland, Ohio",
   "\\textbf{Mapping human movement patterns after a natural disaster in the Democratic Republic of Congo.} \\begin{itemize}
-        \\item Developed Python scripts automating \\textbf{GPS coordinate extraction} from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo post the volcanic eruption of Mt Nyiragongo.
+        \\item Developed Python scripts automating \\textbf{GPS coordinate extraction} from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo after the volcanic eruption of Mt Nyiragongo.
         \\item Processed and transformed data into a machine-readable format, enabling streamlined and automated map generation.
         \\item Applied automated scripts to parse video feeds into frames, implementing \\textbf{Machine Learning Algorithms (YOLO)} for tent detection.
         \\item Automated the generation of heat maps of tent distribution according to GPS coordinates, allowing for the \\textbf{mapping of the human movement pattern} in the aftermath of the eruption. 
