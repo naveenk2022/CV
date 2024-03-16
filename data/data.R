@@ -56,9 +56,9 @@ experience <- tribble(
         \\item Deployed \\textbf{RStudio and JupyterLab servers} (with pre-installed Bioinformatics tools) through Docker containers, circumventing the need to install these tools on the server directly.
         \\item Transferred the Docker storage cache to a physical hard drive while ensuring existing images were preserved, eliminating all future storage errors while freeing up root filesystem overhead.\\end{itemize}
   \\textbf{Automated Cluster Configuration and HDFS Deployment} \\begin{itemize}
-        \\item Utilizing Ansible scripts, automated the deployment,configuration and initiation of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark with a JupyterLab kernel} across a 4 node computing cluster.
+        \\item Utilizing Ansible scripts, automated the deployment, configuration and initiation of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark with a JupyterLab kernel} across a 4 node computing cluster.
         \\item Automated the deployment and configuration of \\textbf{Bioinformatics (Hail, Glow)} tools on these clusters, interfacing with Spark and JupyterLab, using Ansible scripts.\\end{itemize}
-  \\textbf{Genomic data Analysis} \\begin{itemize}
+  \\textbf{Genomic Data Analysis} \\begin{itemize}
         \\item Collaborated with the \\textbf{Alzheimer's Disease Sequencing Project} by annotating and scoring the biological effects of 362 million structural genetic variants associated with Alzheimer's Disease in the R4 release of the ADSP.
         \\item Performed statistical analysis on the Data and presented findings in the form of a poster at the ASHG (American Society of Human Genetics) 2023 Conference in Washington DC.
         \\item Developed \\textbf{generative adversarial network (GAN)} via an automated pipeline to simulate a chunk of realistic human genomic data by training the model on 1000 Genomes data, while incorporating automated quality checks for LD, HWE, and more, as part of a pending journal publication.\\end{itemize}",
