@@ -7,6 +7,7 @@ skills <- tribble(
   "Markup Languages", "LaTeX, Markdown, RMarkdown",
   "Version Control", "Git",
   "Python-based skills","PySpark for Hadoop/Spark, Tensorflow, Pytorch, pandas, scikit-learn, numpy, scipy",
+  "Database Administration", "HDFS(Hadoop Distributed File System), PostgreSQL server",
   "Bioinformatics tools","Samtools, BCFtools, HTSlib, Tabix, Plink "
 
 )
@@ -73,10 +74,10 @@ experience <- tribble(
   "DECEMBER",2022,
   "Cleveland, Ohio",
   "\\textbf{Mapping human movement patterns after a natural disaster in the Democratic Republic of Congo.} \\begin{itemize}
-        \\item Developed Python scripts automating GPS coordinate extraction from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo post the volcanic eruption of Mt Nyiragongo.
+        \\item Developed Python scripts automating \\textbf{GPS coordinate extraction} from GPX files of geospatial video feeds from refugee camps in the Democratic Republic of Congo post the volcanic eruption of Mt Nyiragongo.
         \\item Processed and transformed data into a machine-readable format, enabling streamlined and automated map generation.
-        \\item Applied automated scripts to parse video feeds into frames, implementing Machine Learning Algorithms for tent detection.
-        \\item Created heat maps of tent distribution according to GPS coordinates, allowing for the mapping of the human movement pattern in the aftermath of the eruption. 
+        \\item Applied automated scripts to parse video feeds into frames, implementing \\textbf{Machine Learning Algorithms (YOLO)} for tent detection.
+        \\item Automated the generation of heat maps of tent distribution according to GPS coordinates, allowing for the \\textbf{mapping of the human movement pattern} in the aftermath of the eruption. 
         \\item Wrote up the findings as a part of a manuscript for a peer-reviewed publication.\\end{itemize}",
   "Junior Resident Doctor",
   "Department of Psychiatry, Saveetha Medical College",
@@ -109,7 +110,7 @@ leadership <- tribble(
   "OCTOBER", 2022, 
   "Cleveland, Ohio", 
   "\\textbf{Community Leadership}  \\begin{itemize}
-        \\item Facilitated seamless integration of new residents, fostering community through monthly social events.
+        \\item Facilitated the integration of new residents, and fostered community through monthly social events.
         \\item Collaborated with the executive board to ensure effective communication and daily management of the house.
         \\item Organized monthly events, contributing to a vibrant and inclusive living environment.\\end{itemize}",
   "Admissions Manager",
@@ -118,8 +119,8 @@ leadership <- tribble(
   "SEPTEMBER", 2022,
   "Cleveland, Ohio",
   "\\textbf{Residential Admissions and Selections} \\begin{itemize}
-        \\item Screened and interviewed prospective residents, facilitating transparent communication of results within the house.
-        \\item Successfully admitted diverse graduate students globally, including those from India, Bangladesh, China, Vietnam, Thailand, Nigeria, Ireland, and Iran.
+        \\item Screened and interviewed prospective residents, and transparently communicated the results within the house.
+        \\item Successfully admitted a diverse graduate student cohort, including students from India, Bangladesh, China, Vietnam, Thailand, Nigeria, Ireland, and Iran.
         \\item Oversaw the onboarding process for 8 graduate students, ensuring a smooth transition to life in the United States at Steiner House.\\end{itemize}",
   "Ordering Manager",
   "Steiner House International Co-op",

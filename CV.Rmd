@@ -72,7 +72,9 @@ tribble(
    ~`Markup Languages`,
    ~`Version Control`,
    ~`Python-based skills`,
+   ~`Databases`,
    ~`Bioinformatics Tools`,
+   ~`Databases`,
   "Unix, Kubuntu Debian Linux, Fedora Red Hat Linux, Raspbian Debian Linux, Windows 11",
   "Python, R, Bash, SQL",
   "Hadoop/Spark/Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
@@ -80,7 +82,9 @@ tribble(
   "LaTeX, Markdown, RMarkdown",
   "Git, GitHub, gh client",
   "PySpark, Tensorflow, Pytorch, pandas, scikit-learn, numpy, scipy",
-  "samtools, BCFtools, HTSlib, Tabix"
+  "HDFS(Hadoop Distributed File System), PostgreSQL server",
+  "samtools, BCFtools, HTSlib, Tabix",
+  "HDFS(Hadoop Distributed File System), PostgreSQL server"
 ) %>%
   kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
   kable_styling(full_width = F, 
@@ -89,7 +93,7 @@ tribble(
                 position = "center") %>% 
   row_spec(0, bold = T, color = "#414141") %>% 
   row_spec(1, bold = F, color = "#7f7f7f") %>% 
-  column_spec(column = 1:8, width = '2.00cm')
+  column_spec(column = 1:20, width = '2.00cm')
 ```
 
 # Teaching Experience
@@ -156,6 +160,7 @@ projects %>%
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
 
@@ -163,6 +168,7 @@ projects %>%
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
 Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr., Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
@@ -171,6 +177,7 @@ Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Bi
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
 
@@ -178,6 +185,7 @@ Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Bi
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small Segamalai, D., Abdul Jameel, A. R., **Kannan, N**., Anbalagan, A., Duraisamy, B., Raju, P., & Devy Gounder, K. (2017). [Mediastinal pseudocyst: varied presentations and management---experience from a tertiary referral care centre in India.](https://downloads.hindawi.com/archive/2017/5247626.pdf) *HPB Surgery*, *2017*.
 
@@ -185,6 +193,7 @@ Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Bi
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 
 -   \small Vellaisamy, R., **Kannan, N**., Anbalagan, A., Raju, P., Duraisamy, B., Murugesan, C. S., & Gounder, K. D. (2016). [Endoscopic access to hepatic duct through duodenum during follow up--after primary surgery for hepatolithiasis](https://hpbonline.org/article/S1365-182X(16)31428-9/fulltext). *HPB*, *18*, e530.
@@ -193,6 +202,7 @@ Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Bi
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small Ramasamy, V., Vellaisamy, R., **Kannan, N**., & Gounder, K. D. (2016). [Refined technique of access loop in hepatobiliary surgery.](https://hpbonline.org/article/S1365-182X(16)31598-2/abstract) *HPB*, *18*, e593-e594.
 
@@ -200,6 +210,7 @@ Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Bi
 
 \begingroup
 \bodyfontlight
+\color{darktext}
 
 -   \small \textbf{Kannan, N.}, Vellaisamy, R., Govindarajan, M., & Gounder, K. D. (2016). [Pellagra following pancreaticoduodenectomy for malignant pancreatic carcinoid with pluripotent hormonal potential](https://www.hpbonline.org/article/S1365-182X(16)31013-9/fulltext). *HPB*, *18*, e381-e382.
 
