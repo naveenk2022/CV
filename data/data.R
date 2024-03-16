@@ -45,7 +45,7 @@ experience <- tribble(
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University", 
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
-  "\\textbf{Postgres Database Administration} \\begin{itemize}
+  "\\textbf{PostgreSQL Database Administration} \\begin{itemize}
         \\item Configured and deployed a \\textbf{PostgreSQL server} instance on Linux system with multiple CPU cores.
         \\item Created and managed 3 databases, handling \\textbf{schema design} and data modeling.
         \\item Utilized \\textbf{Spark's InferSchema tool} and automated loading of genomic flatfiles into tables within different databases. 
