@@ -15,16 +15,21 @@ skills <- tribble(
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Research Associate", 
-  "Population Health and Quantitative Health Sciences, Case Western Reserve University", 
+  "PQHS, School of Medicine, Case Western Reserve University", 
   "MAY", 2023, 
   "Present", NA, "Cleveland, Ohio", 
-  c("Configured automated deployment of \\textbf{Postgres database server} using \\textbf{Ansible} - established multiple databases and schemas, populated data, managed users and privileges, and implemented security controls.",
-    "Developed \\textbf{generative adversarial network (GAN)} to simulate realistic human genomic data - trained model on 1000 Genomes data, and simulated a chunk of artificial genotypes which passed quality checks for LD, HWE, and more, pending journal publication.",
-    "Engineered Mamba-driven \\textbf{Docker/Singularity} containers, \\textbf{reducing build times by 3x}, transferred Docker storage cache to a physical hard drive, eliminating future storage errors, and created Dockerized servers with Data Science/ Bioinformatics tools.",
-   "Established, configured, and maintained VM and Raspberry Pi bare-metal servers, documenting the set-up, and automated the deployment of \\textbf{HDFS, YARN, Hadoop and Spark/PySpark} on them along with \\textbf{bioinformatics (Hail, Glow) tools} using \\textbf{Ansible}.",
-   "As part of the Alzheimer's Disease Sequencing Project, annotated and scored \\textbf{362 million structural genetic variants linked to Alzheimer's Disease}, followed by \\textbf{statistical analysis and presentation of findings} at the ASHG (American Society of Human Genetics) Conference in Washington DC (November 2023)."),
+  "\\textbf{Automated Large-Scale Cluster Deployment and Management} \\begin{itemize}
+        \\item Deployed fully automated, unattended and \\textbf{remote OS provisioning} and \\textbf{DHCP-based stable IPv4 assignment} across a high performance computing cluster via \\textbf{Ansible scripts} integrated with a \\textbf{PXE server} and local iDRAC.\\end{itemize}
+  \\textbf{PostgreSQL Database Administration} \\begin{itemize}
+        \\item Installed, configured, and deployed a secure multi-core PostgreSQL server instance, created and defined 3 databases, and utilized \\textbf{PostgreSQL JDBC integration with Spark} to automate schema definition and loading of \\textbf{terabytes of large genomic flatfiles} into databases.\\end{itemize}
+  \\textbf{Automated HDFS and Spark Deployment} \\begin{itemize}
+        \\item Developed Ansible scripts to automate the installation and configuration of \\textbf{Apache Hadoop HDFS, YARN, MapReduce, and Spark} on a HPC cluster with 18 worker nodes and 1 master node, while also configuring the allocation of cluster resources to the applications.\\end{itemize}
+  \\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
+        \\item Developed Mamba-based Docker/Singularity containers for reproducible scientific pipelines, reducing container build times by 300 percent, and transferred Docker storage cache to a physical hard drive.\\end{itemize}
+  \\textbf{Genomic Data Analysis} \\begin{itemize}
+        \\item Collaborated with the \\textbf{Alzheimer's Disease Sequencing Project}, annotating and scoring \\textbf{362 million genetic variants} associated with Alzheimer's; presented statistical analysis findings at ASHG 2023 conference.\\end{itemize}",
   "Graduate Research Assistant",
-  "Population Health and Quantitative Health Sciences, Case Western Reserve University",
+  "PQHS, School of Medicine, Case Western Reserve University",
   "JANUARY",2023,
   "MAY",2023,
   "Cleveland, Ohio",
@@ -34,21 +39,22 @@ experience <- tribble(
   "MAY",2022,
   "DECEMBER",2022,
   "Cleveland, Ohio",
-  c("Automated extraction of tent GPS coordinates from DRC refugee camp video feeds post Mt. Nyiragongo's eruption using \\textbf{Python} and \\textbf{Pytorch} to implement ML for tent detection and heat map generation of migration patterns for peer-reviewed publication."),
+  "Developed Python scripts and YOLOv4 ML algorithms to automate the extraction of GPS coordinates from geospatial video feeds of refugee camps in the DRC after Mt. Nyiragongo eruption to generate of heat maps of tent distribution in refugee camps.",
   "Junior Resident Doctor",
   "Department of Psychiatry, Saveetha Medical College",
   "JULY", 2020,
   "SEPTEMBER", 2020,
   "Chennai, India",
-  c("Evaluated and diagnosed psychiatric illnesses, and met the assigned goal of management of five patients per day."),
+  "Evaluated and diagnosed psychiatric illnesses, and met the assigned goal of management of five patients per day.",
   "Junior Resident Doctor",
   "Madras Medical College",
   "MARCH", 2019,
   "MARCH", 2020,
   "Chennai, India",
-  "Rotated through the following departments: Internal Medicine, General Surgery, Obstetrics and Gynecology, Community Medicine, Psychiatry, Emergency Trauma Ward, Labor Ward."
+  "\\textbf{Rotated through the following departments:} Internal Medicine, General Surgery, Obstetrics and Gynecology, Community Medicine, Psychiatry, Emergency Trauma Ward, Labor Ward."
   
 )
+
 
 teaching <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,

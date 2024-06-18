@@ -112,9 +112,7 @@ teaching %>%
 ```
 
 # Leadership
-
 ```{r Leadership, results = "asis"}
-
 leadership %>%
   detailed_entries(
     with = title,
@@ -123,11 +121,8 @@ leadership %>%
     when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
     where = where, .protect = F
   )
-
 ```
-
 # Projects
-
 ```{r PROJECTS}
 
 projects %>%
@@ -140,8 +135,6 @@ projects %>%
   )
 
 ```
-
-
 ```{r}
 ## For the following sections, note that:
 # \bodyfont is a custom command that has been defined in the awesome-cv.cls file.
@@ -154,9 +147,15 @@ projects %>%
 # This would use the local Roboto font found in the fonts folder. The "/" IS NOT OPTIONAL.
 
 ```
-
-
 # Publications
+
+\begingroup
+\bodyfontlight
+\color{darktext}
+
+- \small \textbf{Naveen Kannan}\textsuperscript{1}, Nicholas Wheeler\textsuperscript{1}, Genome Center for Alzheimer’s Disease, Li-San Wang\textsuperscript{2}, Yuk Yee Leung\textsuperscript{2}, William S. Bush\textsuperscript{1},\textsuperscript{1}Cleveland Institute for Computational Biology, Department for Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, Ohio 44106, USA;\textsuperscript{2} Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA, Quality Control metrics of individual genetic variants in the Alzheimer’s Disease Sequencing Project are associated with FAVOR annotations.
+
+\endgroup
 
 \begingroup
 \bodyfontlight

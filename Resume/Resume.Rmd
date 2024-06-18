@@ -13,7 +13,6 @@ aboutme: "Data Scientist and Bioinformatician with 2+ years of research experien
 headcolor: 414141
 output: 
   vitae::awesomecv
-  
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -114,13 +113,33 @@ projects %>%
 
 ```
 
+```{r}
+## For the following sections, note that:
+# \bodyfont is a custom command that has been defined in the awesome-cv.cls file.
+# \newcommand*{\bodyfont}{\sourcesanspro} 
+# \bodyfontlight is similar
+# If you want to download fonts and use them, you'd need to use fontspec
+# For example, for the following if you used:
+# \begingroup
+# \fontspec [Path = fonts/] {Roboto-Regular}
+# This would use the local Roboto font found in the fonts folder. The "/" IS NOT OPTIONAL.
+
+```
 # Publications
 
 \begingroup
 \bodyfontlight
 \color{darktext}
 
--   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e}, \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. \textbf{[Manuscript under review]}
+- \small \textbf{Naveen Kannan}\textsuperscript{1}, Nicholas Wheeler\textsuperscript{1}, Genome Center for Alzheimer’s Disease, Li-San Wang\textsuperscript{2}, Yuk Yee Leung\textsuperscript{2}, William S. Bush\textsuperscript{1},\textsuperscript{1}Cleveland Institute for Computational Biology, Department for Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, Ohio 44106, USA;\textsuperscript{2} Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA, Quality Control metrics of individual genetic variants in the Alzheimer’s Disease Sequencing Project are associated with FAVOR annotations.
+
+\endgroup
+
+\begingroup
+\bodyfontlight
+\color{darktext}
+
+-   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
 
 \endgroup
 
@@ -129,9 +148,7 @@ projects %>%
 \color{darktext}
 
 -   \small \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
-Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western
-Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr.,
-Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
+Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr., Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
 
 \endgroup
 
@@ -139,7 +156,7 @@ Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and 
 \bodyfontlight
 \color{darktext}
 
--   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. \textbf{[Manuscript under review]}
+-   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
 
 \endgroup
 
@@ -154,6 +171,7 @@ Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and 
 \begingroup
 \bodyfontlight
 \color{darktext}
+
 
 -   \small Vellaisamy, R., **Kannan, N**., Anbalagan, A., Raju, P., Duraisamy, B., Murugesan, C. S., & Gounder, K. D. (2016). [Endoscopic access to hepatic duct through duodenum during follow up--after primary surgery for hepatolithiasis](https://hpbonline.org/article/S1365-182X(16)31428-9/fulltext). *HPB*, *18*, e530.
 
@@ -174,3 +192,4 @@ Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and 
 -   \small \textbf{Kannan, N.}, Vellaisamy, R., Govindarajan, M., & Gounder, K. D. (2016). [Pellagra following pancreaticoduodenectomy for malignant pancreatic carcinoid with pluripotent hormonal potential](https://www.hpbonline.org/article/S1365-182X(16)31013-9/fulltext). *HPB*, *18*, e381-e382.
 
 \endgroup
+
