@@ -153,7 +153,8 @@ projects %>%
 \bodyfontlight
 \color{darktext}
 
-- \small \textbf{Naveen Kannan}\textsuperscript{1}, Nicholas Wheeler\textsuperscript{1}, Genome Center for Alzheimer’s Disease, Li-San Wang\textsuperscript{2}, Yuk Yee Leung\textsuperscript{2}, William S. Bush\textsuperscript{1},\textsuperscript{1}Cleveland Institute for Computational Biology, Department for Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, Ohio 44106, USA;\textsuperscript{2} Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA, Quality Control metrics of individual genetic variants in the Alzheimer’s Disease Sequencing Project are associated with FAVOR annotations.
+- \small Ajayakumar, J., Curtis, A. J., Maisha, F. M., Bempah, S., Ali, A., \textbf{Kannan, N.}, Armstrong, G. & Morris Jr, J. G. (2024). Using spatial video and deep learning for automated mapping of ground-level context in relief camps. International Journal of Health Geographics, 23(1), 23.
+
 
 \endgroup
 
@@ -161,7 +162,16 @@ projects %>%
 \bodyfontlight
 \color{darktext}
 
--   \small Jayakrishnan Ajayakumar \textsuperscript{a}, Andrew J. Curtis \textsuperscript{a} , Felicien Maisha \textsuperscript{b} , Sandra Bempah \textsuperscript{c} , Afsar Ali \textsuperscript{b,d} , J. Glenn Morris Jr. \textsuperscript{b,e} , \textbf{Naveen Kannan} \textsuperscript{a} , and Grace Armstrong \textsuperscript{a}, \textsuperscript{a}Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; \textsuperscript{b}Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA; \textsuperscript{c}Department of Geography, Kent State University, Kent, Ohio, USA; \textsuperscript{d}Department of Environmental & Global Health, College of Public Health and Health Professions, University of Florida, Gainesville, Florida, USA; \textsuperscript{e}College of Medicine, University of Florida, Gainesville, Florida, USA, Using Spatial Video and Deep Learning for Automated Mapping of Relief Camps. [Manuscript under review]
+-   \small Ruksakulpiwat, S., Thongking, W., \textbf{Kannan, N.}, Wright, E., Niyomyart, A., Benjasirisan, C., ... & Still, C. H. (2024). Understanding the Relationship Between Comorbidities, Medication Nonadherence, Activities of Daily Living, and Heart Condition Status Among Older Adults in the United States: A Regression Analysis and Machine Learning Approach. Journal of Cardiovascular Nursing, 10-1097.
+
+
+\endgroup
+
+\begingroup
+\bodyfontlight
+\color{darktext}
+
+- \small \textbf{Naveen Kannan}\textsuperscript{1}, Nicholas Wheeler\textsuperscript{1}, Genome Center for Alzheimer’s Disease, Li-San Wang\textsuperscript{2}, Yuk Yee Leung\textsuperscript{2}, William S. Bush\textsuperscript{1},\textsuperscript{1}Cleveland Institute for Computational Biology, Department for Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, Ohio 44106, USA;\textsuperscript{2} Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA, Quality Control metrics of individual genetic variants in the Alzheimer’s Disease Sequencing Project are associated with FAVOR annotations.
 
 \endgroup
 
@@ -171,14 +181,6 @@ projects %>%
 
 -   \small \textbf{N. Kannan}\textsuperscript{1}, N. Wheeler\textsuperscript{1}, Genome Center for Alzheimer's Disease, L-S. Wang\textsuperscript{2}, Y. Leung\textsuperscript{2}, W. S.
 Bush\textsuperscript{1}; \textsuperscript{1}Cleveland Inst. for Computational Biology, Dept. for Population and Quantitative Hlth.Sci., Case Western Reserve Univ., Cleveland, OH, \textsuperscript{2}Dept. of Pathology and Lab. Med., Penn Neurodegeneration Genomics Ctr., Perelman Sch. of Med., Univ. of Pennsylvania, Philadelphia, PA., Annotation and scoring of the deleteriousness of individual genetic variants in the 4th release of the Alzheimer’s Disease Sequencing Project;(PB4451). Presented at the Annual Meeting of The American Society of Human Genetics, November 3, 2023, in Washington DC.
-
-\endgroup
-
-\begingroup
-\bodyfontlight
-\color{darktext}
-
--   \small Suebsarn R., W. T., **Naveen K**., Ellis W., Atsadaporn N., Chitchanok B., Chantira C., Christine S., Heba A. Using regression analysis and machine learning approach to understand the association between comorbidities, medication nonadherence, activity of daily living, and heart condition status among older adults in the United States. [Manuscript under review]
 
 \endgroup
 
