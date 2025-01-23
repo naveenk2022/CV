@@ -1,16 +1,15 @@
 skills <- tribble(
   ~area, ~skills,
-  "Operating Systems","Unix-based systems, Kubuntu, Debian, Fedora Red Hat Linux, Raspbian Debian Linux, Windows 11",
-  "Programming Languages", "Python, R, Bash, SQL",
-  "Software","Hadoop/Spark, Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
-  "Geospatial Analytics/Visualization", "geopandas, sf (R), QGIS",
-  "Markup Languages", "LaTeX, Markdown, RMarkdown",
-  "Version Control", "Git",
-  "Python-based skills","PySpark for Hadoop/Spark, Tensorflow, Pytorch, pandas, scikit-learn, numpy, scipy",
-  "Database Administration", "HDFS(Hadoop Distributed File System), PostgreSQL server",
-  "Bioinformatics tools","Samtools, BCFtools, HTSlib, Tabix, Plink "
-
+  "Operating Systems & Environments", "Debian, Ubuntu, Fedora Red Hat Linux, Raspbian Linux, Windows 11",
+  "Programming & Scripting", "Python, R, Bash, SQL",
+  "Data Engineering & Analytics Tools", "Hadoop/Spark (PySpark, Hive), Jupyter, GeoPandas, sf (R), QGIS",
+  "Development & Automation", "Docker, Singularity, SLURM, Ansible, Git",
+  "Machine Learning & Libraries", "TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, SciPy",
+  "Databases & Storage", "HDFS (Hadoop Distributed File System), PostgreSQL Server",
+  "Bioinformatics Tools", "SAMtools, BCFtools, HTSlib, Tabix, PLINK",
+  "Markup & Documentation", "LaTeX, Markdown, R Markdown"
 )
+
 
 
 projects <- tribble(
@@ -39,29 +38,42 @@ projects <- tribble(
  
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Database Engineer", 
+  "Trailhead Biosystems", 
+  "JULY", 2024, 
+  "Present", NA, "Cleveland, Ohio", 
+  "\\textbf{HD-DoE Database Design and Implementation} \\begin{itemize}
+        \\item Automated extraction of structured data from \\textbf{20 gigabytes} of proprietary reports into PostgreSQL using Python, reducing manual processing time by \\textbf{90 percent}.
+        \\item Architected \\textbf{normalized database schema} enabling complex queries across \\textbf{3 years of historical data}.
+        \\item Optimized database performance through indexing, partitioning, and query tuning, resulting in \\textbf{40 percent} faster query response times.
+        \\item Built interactive dashboard \\textbf{visualizing key metrics and trends}, enabling stakeholders to self-serve data insights.
+        \\item Transformed \\textbf{siloed report data} into \\textbf{queryable format} supporting company-wide aggregate analysis.\\end{itemize}
+  \\textbf{Internal Banked Cell Inventory Tracking} \\begin{itemize}
+        \\item Implemented normalized database schema to \\textbf{replace legacy Excel tracking system} for banked cell inventory.
+        \\item Developed \\textbf{PowerApps interface} for streamlined data entry of bioreactors metrics, QC data and banked cell vial counts.
+        \\item Created \\textbf{relational data model} connecting bioreactor,cell vial and cell count data, enabling granular inventory tracking.
+        \\item Transformed manual spreadsheet tracking into structured database system, improving data accuracy and reducing entry errors by \\textbf{90 percent}.\\end{itemize}",
   "Research Associate", 
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University", 
   "MAY", 2023, 
-  "Present", NA, "Cleveland, Ohio", 
+  "JULY", 2024, "Cleveland, Ohio", 
   "\\textbf{Automated Large-Scale Cluster Deployment and Management} \\begin{itemize}
-        \\item Orchestrated the redeployment of a high-performance computing cluster with 18 data nodes, 2 master nodes, 1 service node, and 1 head node.
+        \\item Orchestrated the redeployment of a high-performance computing cluster with 23 nodes.
         \\item Configured a \\textbf{PXE server} on the service node, enabling \\textbf{fully automated, unattended OS provisioning} across the cluster.
-        \\item Automated network configuration by matching NIC MAC addresses to IPs using a \\textbf{DHCP server}, ensuring consistent IP address allocation across the cluster nodes.
-        \\item Developed \\textbf{Ansible scripts} to intergrate with \\textbf{iDRAC}, facilitating remote, automated PXE-based cluster reprovisioning with a single command.\\end{itemize}
+        \\item Automated network configuration via a \\textbf{DHCP server}, ensuring consistent IP address allocation across the cluster.
+        \\item Developed \\textbf{Ansible scripts} to intergrate with \\textbf{iDRAC}, facilitating remote, automated PXE-based cluster reprovisioning.\\end{itemize}
   \\textbf{PostgreSQL Database Administration} \\begin{itemize}
-        \\item Configured, installed, and deployed a multi-core PostgreSQL server instance utilizing Ansible, while creating and managing \\textbf{3 databases}, along with schema design and data modeling.
-        \\item Utilized \\textbf{PostgreSQL JDBC integration with Spark} to automate schema definition and loading of \\textbf{terabytes of large genomic flatfiles} into databases.
+        \\item Configured and deployed a \\textbf{PostgreSQL cluster}, along with schema design and data modeling.
+        \\item Integrated PostgreSQL with Spark and automated ETL and schema generation for \\textbf{4 terabytes of large genomic flatfiles}.
         \\item Implemented \\textbf{comprehensive security measures}, including user role management, privilege controls, firewall rules, and network security for secure database operations. \\end{itemize}
   \\textbf{Automated HDFS and Spark Deployment} \\begin{itemize}
-        \\item Developed \\textbf{Ansible scripts} to automate installation and configuration of \\textbf{Apache Hadoop HDFS, YARN, MapReduce, and Spark} on a HPC cluster with 18 worker nodes and 1 master node.
-        \\item Optimized YARN with 80 GB of RAM, 6 vCPUs per worker node, and 48 vCores per vCPU, facilitating \\textbf{efficient resource management} and scheduling for Hadoop workloads.
-        \\item Installed and configured Apache Spark, a powerful engine for large-scale data processing, and configured specific launch scripts for specific tasks.\\end{itemize}
+        \\item Developed \\textbf{Ansible scripts} to automate installation and configuration of \\textbf{Apache Hadoop HDFS, YARN, MapReduce, and Spark} on a HPC cluster with 18 worker nodes and 1 master node.\\end{itemize}
   \\textbf{Docker/Singularity Container Deployment} \\begin{itemize}
         \\item Developed Mamba-based Docker/Singularity containers for reproducible scientific pipelines, reducing container build times by 300 percent, and deployed \\textbf{RStudio and JupyterLab servers} through \\textbf{Docker} containers.
-        \\item Transferred Docker storage cache to a physical hard drive, preserving existing images and eliminating storage errors and root filesystem overhead.\\end{itemize}
+        \\item Transferred Docker storage cache to a physical hard drive, eliminating storage errors and preserving existing images.\\end{itemize}
   \\textbf{Genomic Data Analysis} \\begin{itemize}
-        \\item Collaborated with the \\textbf{Alzheimer's Disease Sequencing Project}, annotating and scoring \\textbf{362 million genetic variants} associated with Alzheimer's; presented statistical analysis findings at ASHG 2023 conference.
-        \\item Developed \\textbf{GAN-based pipeline} to simulate realistic human genomic data by training on 1000 Genomes data, incorporating quality checks for LD, HWE, etc., as part of a pending journal publication.\\end{itemize}",
+        \\item With the \\textbf{Alzheimer's Disease Sequencing Project}, annotated and scored \\textbf{362 million genetic variants} associated with Alzheimer's disease.
+        \\item Developed \\textbf{Generative Adversarial Neural Network} to create synthetic human genomic data trained on 1000 Genomes data, incorporating quality checks for Linkage Dysequilibrium and Hardy Weinburg Equilibrium.\\end{itemize}",
   "Graduate Research Assistant",
   "Population Health and Quantitative Health Sciences, School of Medicine, Case Western Reserve University",
   "JANUARY",2023,
@@ -74,8 +86,8 @@ experience <- tribble(
   "DECEMBER",2022,
   "Cleveland, Ohio",
   "\\textbf{Mapping human movement patterns after a natural disaster in the Democratic Republic of Congo.} \\begin{itemize}
-        \\item Developed Python scripts to automate the extraction of GPS coordinates from geospatial video feeds of refugee camps in DRC after Mt. Nyiragongo eruption, enabling automated map generation.
-        \\item Implemented ML algorithms (YOLOv4) for tent detection by parsing video feeds into frames, and generated heat maps of tent distribution based on GPS coordinates.
+        \\item Developed Python scripts to extract GPS coordinates from geospatial video feeds of refugee camps in DRC after Mt. Nyiragongo eruption, and implemented ML algorithms (YOLOv4) for tent detection for each frame of the video feed.
+        \\item Generated heat maps of tent distribution based on GPS coordinates.
         \\item Wrote up the findings as a part of a manuscript for a peer-reviewed publication.\\end{itemize}",
   "Junior Resident Doctor",
   "Department of Psychiatry, Saveetha Medical College",

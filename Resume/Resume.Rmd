@@ -9,7 +9,7 @@ email: "naveen.kannan12@gmail.com"
 github: naveenk2022
 linkedin: naveen-kannan-177120118
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist and Bioinformatician with 2+ years of research experience applying advanced data analytics and machine learning to human genomic data. Experienced in automated deployment of scientific workflows with cutting edge machine learning, data analytics, and bioninformatics tools, with a strong passion for enabling easy access to Big Data tools and containers."
+aboutme: "Experienced Bioinformatics Data Engineer with 3+ years of expertise in designing scalable ETL pipelines, integrating large-scale biological datasets, and building robust data infrastructure to support cutting-edge research. Proven ability to integrate complex omics data and establish best practices that drive technological innovation in therapeutic research."
 headcolor: 414141
 output: 
   vitae::awesomecv
@@ -45,20 +45,20 @@ experience %>%
 tribble(
    ~`Operating Systems`, 
    ~`Programming Languages`,
-   ~`Software`,
-   ~`Geospatial Analytics`,
-   ~`Markup Languages`,
+   ~`Data Engineering`,
+   ~`Pipeline Tools`,
+   ~`Cloud VM Tools`,
    ~`Version Control`,
    ~`Machine Learning`,
-   ~`Bioinformatics Tools`,
-  "Unix, Debian Linux, Fedora Red Hat Linux, Windows 11",
+   ~`Bioinformatics`,
+  "Linux (Debian, Fedora Red Hat, Raspbian), Windows 11",
   "Python, R, Bash, SQL",
-  "Hadoop/Spark, Hive, Jupyter, Docker, Singularity, SLURM, Ansible",
-  "Geopandas, sf(R), QGIS, ArcGIS",
-  "LaTeX, Markdown, RMarkdown",
+  "Hadoop, Spark, Hive, PySpark, SQLAlchemy, Alembic, FastAPI, PostgreSQL, Pydantic",
+  "Docker, Singularity, Ansible, SLURM",
+  "AWS EC2, AWS S3, Azure VMs",
   "Git, GitHub, gh client",
-  "PySpark, Tensorflow, Pytorch, pandas, scikit-learn, numpy, scipy",
-  "samtools, BCFtools, HTSlib, Tabix, Hail, Glow"
+  "TensorFlow, PyTorch, pandas, scikit-learn, numpy, scipy",
+  "Samtools, BCFtools, HTSlib, Tabix, Plink, Hail, Glow"
 ) %>%
   kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
   kable_styling(full_width = F, 
@@ -67,7 +67,7 @@ tribble(
                 position = "center") %>% 
   row_spec(0, bold = T, color = "#414141") %>% 
   row_spec(1, bold = F, color = "#7f7f7f") %>% 
-  column_spec(column = 1:8, width = '1.75cm')
+  column_spec(column = 1:9, width = '1.75cm')
 ```
 
 
@@ -83,9 +83,8 @@ tribble(
   detailed_entries(Institution, Year, Degree, Where,Detail)
 ```
 
-# Leadership
 
-```{r Leadership, results = "asis"}
+```{r Leadership, results = "asis", include = FALSE}
 
 leadership %>%
   detailed_entries(
@@ -98,9 +97,7 @@ leadership %>%
 
 ```
 
-# Personal Projects
-
-```{r PROJECTS}
+```{r PROJECTS, include = FALSE}
 
 projects %>%
   detailed_entries(
